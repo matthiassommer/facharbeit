@@ -1,0 +1,50 @@
+ \documentclass[parskip=half*,fromalign=center,fromrule=aftername]{scrlttr2}
+ \usepackage{ngerman}
+  \setkomavar{fromaddress}{Naturwissenschaftlich-technologisches und Sprachliches Gymnasium}
+  \setkomavar{backaddress}{Werdenfels-Gymnasium $\bullet$ Postfach 19 64 $\bullet$ 82459 Garmisch-Partenkirchen}
+  \setkomavar{place}{Garmisch-Partenkirchen}
+  \setkomavar{placeseparator}{, den }
+  \pagestyle{headings}
+  \makeatletter
+  \@setplength{refvpos}{85mm}
+
+  \firsthead{%
+  \parbox{\textwidth}{\centering\texttt\textbf\Large{\textmd{Werdenfels-Gymnasium \ Garmisch-Partenkirchen}}}
+  \parbox{\textwidth}{\centering\sffamily\footnotesize{\textmd{\usekomavar{fromaddress}}}
+            }}
+
+  \begin{document}
+  \begin{letter}{%
+  %Anrede2% \\
+  %Strasse% \\
+  %Postleitzahl% %Ort% }
+  \opening{%
+  \raggedright %Anrede%}
+  %Inhalt%
+  \begin{center}
+  \textbf{\Large{Verweis}}
+  \end{center}
+  %Inhalt2% \\ \\
+  Bitte geben Sie dieses Schreiben umgehend \"{u}ber Ihre Tochter wieder an mich zur\"{u}ck.
+
+  Mit freundlichen Gr\"{u}{\ss}en, \\ \\
+  \begin{tabular}{p{6cm} p{7cm}}
+  \hrulefill\ & \hrulefill\ \\
+  \footnotesize{%Lehrer%} & \footnotesize{F\"{u}r die Schulleitung}
+  \end{tabular}\\ \\ \\
+  Hiermit best\"{a}tigen wir, obiges Schreiben zur Kenntnis genommen zu haben: \\ \\ \\ \\
+ \begin{tabular}{p{6cm} p{7cm}}
+  \hrulefill\ & \hrulefill\ \\
+  \footnotesize{Ort und Datum} & \footnotesize{Unterschrift eines Erziehungsberechtigten}
+  \end{tabular} \\ \\ \\
+
+ \footnotesize{
+ \begin{tabular}{lll}
+  Telefon: 08821 9439090 & Briefadresse: Postfach 1964 & 82459 Garmisch-Partenkirchen \\
+  Telefax: 08821 76980 & Besucheradresse: Wettersteinstra{\ss}e 30 & 82467 Garmisch-Partenkirchen\\
+ \end{tabular} \\
+ \begin{tabular}{lcr}
+ eMail: sekret\"{a}riat@werdenfels-Gymnasium.de & & WWW: http://www.werdenfels-gymnasium.de/
+ \end{tabular}}
+  \end{letter}
+  \end{document}

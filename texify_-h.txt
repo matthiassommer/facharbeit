@@ -1,0 +1,47 @@
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\texmf\miktex\bin>texify.exe -h
+
+
+
+Usage: texify [OPTION]... FILE...
+
+texify -p datei.tex
+
+Run each Texinfo or LaTeX FILE through TeX in turn until all
+cross-references are resolved, building all indices.  The directory
+containing each FILE is searched for included files.  The suffix of
+FILE is used to determine its language (LaTeX or Texinfo).
+
+Makeinfo is used to perform Texinfo macro expansion before running TeX
+when needed.
+
+Options:
+  -@                   Use @input instead of \input; for preloaded Texinfo.
+  -b, --batch          No interaction.
+  -c, --clean          Remove all auxiliary files.
+  -e, --expand         Force macro expansion using makeinfo.
+  -I DIR               Search DIR for Texinfo files.
+  -h, --help           Display this help and exit successfully.
+  -l, --language=LANG  Specify the LANG of FILE: LaTeX or Texinfo.
+      --max-iterations=N        Limit number of iterations.
+      --mkidx-option=OPTION     Pass OPTION to the index generator.
+  -p, --pdf            Use pdftex or pdflatex for processing.
+  -q, --quiet          No output unless errors (implies --batch).
+      --run-viewer     Run a viewer on the resulting DVI/PDF file.
+  -s, --silent         Same as --quiet.
+      --src            Pass option --src to the TeX compiler.
+  -t, --texinfo=CMD    Insert CMD after @setfilename in copy of input file.
+                       Multiple values accumulate.
+      --tex-option=OPTION       Pass OPTION to (La)TeX.
+      --trace=OPTIONS  Specify trace options.
+  -v, --version        Display version information and exit successfully.
+  -V, --verbose        Report on what is done.
+      --viewer-option=OPTION    Pass OPTION to the viewer.
+
+The values of the BIBTEX, LATEX (or PDFLATEX), MAKEINDEX, MAKEINFO,
+TEX (or PDFTEX), and TEXINDEX environment variables are used to run
+those commands, if they are set.
+
+C:\texmf\miktex\bin>

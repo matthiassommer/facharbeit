@@ -1,0 +1,4 @@
+"8a"	"Sommer"	"Alex"	"Test Str. 7"	"82467"	"Garmisch-Partenkirchen"	"Sommer"	"Dieter"	"U"	"Sommer"	"Dr. "		"Ihr Sohn"	"Eltern"	
+"10a"	"Sommer"	"Django"	"Test Str. 7"	"82467"	"Garmisch-Partenkirchen"	"Sommer"	"Dr. Dieter"	"U"	"Sommer"	"Dr. "		"Ihr Sohn"	"Eltern"	
+"K13"	"Sommer"	"Matthias"	"Test Str. 7"	"82467"	"Garmisch-Partenkirchen"	"Sommer"	"Dr. "	"F"				"Ihr Sohn"	"Mutter"
+"K13"	"Dingdo"	"Chrisgine"	"Test Str. 7"	"82467"	"Garmisch-Partenkirchen"	"Sommer"	"Dr. "	"F"				"Ihre Tochter"	"Mutter"	
